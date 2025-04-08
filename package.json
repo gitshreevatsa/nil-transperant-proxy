@@ -1,0 +1,21 @@
+{
+  "name": "hh-transperant-proxy",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.18"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "format": "biome format ./",
+    "lint": "biome check ./",
+    "lint:fix": "biome check --write ."
+  },
+  "dependencies": {
+    "@nilfoundation/niljs": "0.25.0",
+    "@nilfoundation/smart-contracts": "0.7.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "viem": "^2.23.4"
+  }
+}
